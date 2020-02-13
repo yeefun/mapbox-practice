@@ -1,0 +1,57 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+#map {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
+h1 {
+  position: absolute;
+  color: #fff;
+  top: 56px;
+  left: 32px;
+}
+
+.control-address, .control-position {
+  position: absolute;
+  top: 32px;
+}
+
+.control-address {
+  left: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.control-address input {
+  margin-right: 12px;
+}
+
+.control-position {
+  right: 32px;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  background-color: #fff;
+}
+
+input {
+  background-color: #fff;
+}
+
+.marker {
+  background-image: url('/assets/man.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
